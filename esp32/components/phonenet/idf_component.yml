@@ -1,0 +1,6 @@
+version: "0.2.0"
+description: "Internet for ESP32 through an Android phone: virtual lwIP netif relayed over UDP (reverse-net)"
+url: https://github.com/OWNER/reverse-net  # TODO: set your GitHub user before publishing
+license: MIT
+dependencies:
+  idf: ">=5.0"

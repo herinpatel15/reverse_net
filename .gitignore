@@ -1,0 +1,29 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# ESP-IDF
+build/
+sdkconfig
+sdkconfig.old
+managed_components/
+dependencies.lock
+
+# Android / Gradle
+.gradle/
+local.properties
+android/**/build/
+*.apk
+*.aab
+captures/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Captures
+*.pcap
+*.pcapng
