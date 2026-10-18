@@ -39,6 +39,7 @@ Android apps cannot do kernel NAT, so the app rebuilds each UDP/TCP connection i
 | [`esp32/components/phonenet`](esp32/components/phonenet) | ESP-IDF component: virtual netif + frame transport (C) |
 | [`esp32/examples/basic`](esp32/examples/basic) | Minimal example: SoftAP + phonenet + HTTP GET |
 | [`android/`](android) | Android relay app (Kotlin): link loop, IPv4 parser, ICMP, UDP/DNS NAT, TCP NAT |
+| [`examples/`](examples) | Usage examples: ESP32, computer relay, Android NAT classes |
 | [`tools/`](tools) | `pc_relay.py` (test the ESP32 without a phone), `frame_dump.py` (Wireshark helper) |
 | [`build-from-scratch/`](build-from-scratch) | Step-by-step guide to build the whole project yourself, ESP32 and Android tracks |
 | [`docs/`](docs) | [Protocol](docs/protocol.md), [TCP design](docs/tcp.md), [architecture](docs/architecture.md), [troubleshooting](docs/troubleshooting.md), [roadmap](docs/roadmap.md), [original guide](docs/guide.md) |
